@@ -1,0 +1,19 @@
+{
+  "_api_version" : 1.0,
+  "_filetype" : "SEQUENCE_FILE",
+
+  "entries" : [
+    {
+      "title" : "First page",
+      "url" : "www.vg.no",
+      "triggerNextURLRegex": "nyheter"
+    },
+    {
+      "title" : "Second page",
+      "url" : "www.gamer.no",
+      "triggerNextURLRegex": "nyheter"
+    }
+  ]
+
+
+}
