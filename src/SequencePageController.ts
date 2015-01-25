@@ -124,7 +124,7 @@ module seq {
                 // expected - no action needed
             }
             finally {
-                this.interval_id = setInterval(() => { this.handle_checkTrigger() }, 1000);
+                this.interval_id = setInterval(() => { this.handle_checkTrigger() }, 50);
             }
         }
     }
