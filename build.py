@@ -20,7 +20,7 @@ def build():
 	lib_source_path = os.path.join("src", "SequencerLibrary.ts")
 	lib_output_path = os.path.join("build", "js", lib_name)
 	
-	command = "{0} --target es5 {1} --out {2} {3}".format(
+	command = "{0} --sourcemap --target es5 {1} --out {2} {3}".format(
 		tsc, 
 		watch_flag,
 		lib_output_path,

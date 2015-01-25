@@ -4,13 +4,37 @@
 
   "entries" : [
     {
-      "title" : "First page",
-      "url" : "www.vg.no",
+      "title" : "Introduction",
+      "url" : "subpages/intro.html",
       "triggerNextURLRegex": "nyheter"
     },
     {
-      "title" : "Second page",
-      "url" : "www.gamer.no",
+      "title" : "Demonstration video",
+      "url" : "subpages/video.html",
+      "triggerNextURLRegex": "nyheter"
+    }
+  ,
+    {
+      "title" : "Case 1",
+      "url" : "subpages/placeholder.html",
+      "triggerNextURLRegex": "nyheter"
+    }
+  ,
+    {
+      "title" : "Case 2",
+      "url" : "subpages/placeholder.html",
+      "triggerNextURLRegex": "nyheter"
+    }
+  ,
+    {
+      "title" : "Case 3",
+      "url" : "subpages/placeholder.html",
+      "triggerNextURLRegex": "nyheter"
+    }
+  ,
+    {
+      "title" : "Experience form",
+      "url" : "https://docs.google.com/forms/d/1aKtu5PrWDVy8Akl0ZOGjaCSysG2DUz4CyFfa8YurCto/viewform?entry.337710615&entry.42260745={EXPID}",
       "triggerNextURLRegex": "nyheter"
     }
   ]

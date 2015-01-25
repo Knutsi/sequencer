@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Sequencer template page</title>
+    <script src="js/sequencer.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+</head>
+<body>
+
+
+<div id="sequence_list" >
+    <h1>Progress</h1>
+    <p data-seq-role="list"></p>
+</div>
+<iframe id="sequence_view" data-seq-role="view"></iframe>
+
+<script type="text/javascript">
+    var pc = new seq.SequencePageController();  // use default settings
+</script>
+</body>
+</html>

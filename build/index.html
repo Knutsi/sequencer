@@ -3,12 +3,20 @@
 <head lang="en">
     <meta charset="UTF-8">
     <title>Sequencer template page</title>
-    <script src="js/sequencer.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
 
-<div id="list" data-seq-role="list"></div>
-<iframe id="view" data-seq-role="view"></iframe>
+
+<div id="sequence_start_dialog" >
+    <h1>Experiment start</h1>
+    <p>
+        <form action="run.html" method="get">
+            Series: <input type="text" name="series" value="DEMO" />
+            <input type="submit" value="Start" />
+        </form>
+    </p>
+</div>
 
 </body>
 </html>
